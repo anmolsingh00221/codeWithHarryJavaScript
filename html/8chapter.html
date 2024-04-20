@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8 : Events & other DOM properties</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="../style/8chapterStyle.css">
+</head>
+
+<body>
+
+    <h2 id="title" class="hey " data-Anmol="helloWorld">
+        Chapter 8 : Events & other DOM properties <br>
+    </h2>
+
+    <ol>
+        <li>Write a program to shwo different alerts when different buttons are clicked</li>
+        <li>Create a website which is capable of storing bookmarks of your favorite website using href</li>
+        <li>Pepeat Q2 using event listeners</li>
+        <li>Write a JavaScript program to keep fetching contents of a website (Every 5 seconds)</li>
+        <li>Create a glowing bulb effect using classList toggle method in JavaScript </li>
+    </ol>
+
+    <div class="btn-Container">
+        <button id="n" class="btn" value="Looking Nice">Looking Nice</button>
+        <button id="g" class="btn" value="Looking Good">Looking Good</button>
+        <button id="a" class="btn" value="Looking Awesome">Looking Awesome</button>
+    </div>
+
+    <!-- Question 2  -->
+    <button id="google" class="linkBtn" value="Google">Google</button>
+    <button id="twitter" class="linkBtn" value="Twitter">Twitter</button>
+    <button id="instagram" class="linkBtn" value="Instagram">Instagram</button>
+    <button id="facebook" class="linkBtn" value="Facebook">Facebook</button>
+
+
+    <div id="bulb" class="bulb"></div>
+    <button onclick="toggleGlow()">Toggle Glow</button>
+
+    <!-- Script -->
+    <script src="../js/ch-p8.js"></script>
+    <!-- <script src="../js/8DOM&Event.js"></script> -->
+
+</body>
+
+</html>
